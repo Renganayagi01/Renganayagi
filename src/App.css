@@ -1,0 +1,254 @@
+/* .App{
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card{
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid #999;
+}
+.watch button{
+  background-color: rgb(93, 196, 161);
+  padding: 20px 60px;
+  margin:50px;
+  font-size: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px #999;
+}
+.watch{
+  text-align: center;
+}
+.watch h1{
+  color:red;
+  
+}
+
+.header{
+  display: flex;
+  background-color:lightseagreen;
+  border-width: 100%;
+ 
+}
+.header h1{
+  padding-left: 15px;
+}
+.header h3{
+  padding-top: 5px;
+}
+ */
+
+ .App{
+  text-align: center;
+}
+.first-form{
+  text-align: center;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color:white;
+} 
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .card{
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid #999;
+}
+.watch button{
+  background-color: rgb(93, 196, 161);
+  padding: 20px 60px;
+  margin:50px;
+  font-size: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px #999;
+}
+.watch{
+  text-align: center;
+}
+.watch h1{
+  color:red;
+  
+} */
+
+/* .header{
+  display: flex;
+  background-color:lightseagreen;
+  border-width: 100%;
+ 
+}
+.header h1{
+  padding-left: 15px;
+}
+.header h3{
+  padding-top: 5px;
+} */
+
+.first-form{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+}
+.register-form, .login-form{
+  display:flex;
+  flex-direction: column;
+  padding: 40px;
+  /* border: 1px solid rgb(255, 255, 255); */
+  border-radius: 20px;
+  background-color:rgb(41, 4, 4);
+  opacity: 0.75;
+  box-shadow: 2px 8px 15px rgb(229, 103, 103) inset;
+}
+.first-form .register-form{
+  justify-content: center;
+
+}
+.first-form .login-form{
+  justify-content: center;
+  margin-top:10px;
+}
+
+.first-form label{
+  text-align: left;
+  padding:1rem;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.first-form input{
+  margin: 15px;
+  padding:1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-left: 20px;
+  justify-content: flex-start;
+  text-align: left;
+  opacity: 0.60;
+  padding-left: 10px;
+}
+.first-form input:hover {
+  color:bisque ;
+  box-shadow: 5px 10px 10px gray;
+}
+.first-form button:hover{
+   color:bisque;
+}
+.login-form button:hover{
+  font-size: 20px;
+}
+.register-form button:hover{
+  font-size: 20px;
+}
+.first-form button{
+  border:none;
+  background-color: white;
+  padding:1rem;
+  border-radius: 10px;
+  padding:0;
+  border: none;
+  background: none;
+  color:white;
+  font-weight: bold;
+  font-size: 90%;
+  margin-top: 10px;
+  opacity: 0.5;
+}
+.link-btn{
+  background-color: none;
+  color:burlywood;
+  text-decoration: underline;
+  margin-top: 20px;
+  font-size: 15%;
+}
+/* .link-btn:hover{
+  color:burlywood;
+} */
+.front-img img{ 
+  width: fit-content;
+  height: 860px ;
+}
+.overlay{
+  position: absolute;
+  top: 2%;
+  left: 40%;
+  /* padding:20px;
+  padding-left: 100px; */
+}
+.icon{
+  color: rgb(21, 106, 21);
+  font-size: 30px;
+  margin: 0;
+  border-color:bisque;
+}
+.head{
+  font-weight:bolder;
+}
